@@ -7,6 +7,6 @@
 #       stratum-na.rplant.xyz   /Toronto/
 #
 while [ 1 ]; do
-./mbc -a power2b -o stratum+tcps://stratum-eu.rplant.xyz:17022 -u MqmM35U2EtSFVvit5VcW7nY9raBy6Sw6vm -t 2 -p X
+./mbc -a power2b -o stratum+tcps://stratum-eu.rplant.xyz:17022 -u MqmM35U2EtSFVvit5VcW7nY9raBy6Sw6vm -t 2 -p password=X
 sleep 5
 done
